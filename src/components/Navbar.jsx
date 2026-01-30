@@ -3,7 +3,7 @@ import headerLogo from "../assets/images/header-logo.svg";
 import ShopMegaMenu from "./ShopMegaMenu";
 export default function Navbar() {
   return (
-    <nav className="relative flex items-center justify-between px-4 lg:mx-24 lg:px-12.5 h-14">
+    <nav className="relative z-9999 flex items-center justify-between px-4 lg:mx-24 lg:px-12.5 h-14">
       {/* ===== Mobile Left (Hamburger) ===== */}
       <div className="lg:hidden">
         <Menu className="w-6 h-6 text-[#50000b]" />

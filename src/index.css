@@ -9,6 +9,14 @@
   --bfcm-text: #166534;
   --bfcm-icon: #22c55e;
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 @layer components {
   .nav-link {
     @apply relative font-medium text-[#50000b];

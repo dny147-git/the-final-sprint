@@ -42,6 +42,7 @@ export default function ProductGallery() {
             w-full h-165
             object-cover
             rounded-xl
+            
           "
         />
       </div>

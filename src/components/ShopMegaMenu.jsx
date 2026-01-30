@@ -59,6 +59,7 @@ export default function ShopMegaMenu() {
         w-120
         -translate-x-1/2
         pt-6
+        bg-white
         mt-5
         max-h-[70vh] overflow-y-auto custom-scroll
       "
