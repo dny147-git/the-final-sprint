@@ -22,12 +22,14 @@ export default function ProductDetail() {
       "
     >
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
-        {/* LEFT – Gallery */}
-        <div className="w-full lg:w-165 lg:top-24">
-          <ProductGallery />
+        {/* LEFT – Gallery (STICKY) */}
+        <div className="w-full lg:w-165">
+          <div className="sticky top-24">
+            <ProductGallery />
+          </div>
         </div>
 
-        {/* RIGHT – Content */}
+        {/* RIGHT – Content (SCROLL) */}
         <div className="flex-1 space-y-6">
           <Rating />
 
@@ -59,7 +61,6 @@ export default function ProductDetail() {
               duration-300
               lg:text-sm
               md:text-base
-              px-1
               text-[11px]
             "
           >
