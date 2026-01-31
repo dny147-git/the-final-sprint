@@ -83,7 +83,7 @@ export default function IM8Ambassadors() {
       </h2>
 
       {/* MARQUEE */}
-      <div className="group flex gap-6    animate-[marquee_40s_linear_infinite]">
+      <div className="group flex gap-6  animate-[marquee_40s_linear_infinite]">
         {[...ambassadors, ...ambassadors].map((item, i) => (
           <AmbassadorCard key={i} {...item} />
         ))}
