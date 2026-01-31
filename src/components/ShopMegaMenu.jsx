@@ -116,7 +116,7 @@ export default function ShopMegaMenu() {
           </div>
         </div>
         {/* items */}
-        <div className="hidden lg:block my-4 flex flex-col gap-2">
+        <div className="hidden my-4 md:flex flex-col gap-2">
           {ITEMS.map((item) => {
             return (
               <div className="flex flex-col gap-3">

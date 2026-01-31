@@ -2,6 +2,7 @@ import "./App.css";
 import HowToEnjoy from "./components/Enjoy";
 import ExpertVideoCarousel from "./components/ExpertVideoCarousel";
 import Header from "./components/Header";
+import IM8Ambassadors from "./components/IM8Ambassadors/IM8Ambassadors";
 import IM8ComparisonTable from "./components/IM8ComparisonTable";
 import IM8PillarsSection from "./components/IM8PillarsSection";
 import IM8SavingsSection from "./components/IM8SavingsSection";
@@ -30,6 +31,7 @@ function App() {
       <Inside />
       <HowToEnjoy />
       <IM8StarterKit />
+      <IM8Ambassadors />
     </div>
   );
 }

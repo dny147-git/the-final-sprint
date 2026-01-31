@@ -86,7 +86,7 @@ export default function IM8PillarDetail() {
           </div>
 
           {/* RIGHT DETAIL CARD */}
-          <div className="relative rounded-[32px] bg-white/90 p-12 shadow-2xl backdrop-blur">
+          <div className="relative rounded-4xl bg-white/90 p-12 shadow-2xl backdrop-blur">
             {/* Icon */}
             <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#7f0c14]/10 text-[#7f0c14]">
               🧬

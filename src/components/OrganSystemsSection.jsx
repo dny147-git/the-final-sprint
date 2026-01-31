@@ -105,7 +105,7 @@ export default function OrganSystemsSection() {
   return (
     <section className="relative w-full py-24 bg-[#f6dede] overflow-hidden">
       {/* background grid placeholder */}
-      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(#e7bcbc_1px,transparent_1px)] [background-size:20px_20px]" />
+      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(#e7bcbc_1px,transparent_1px)] bg-size-[20px_20px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Toggle */}

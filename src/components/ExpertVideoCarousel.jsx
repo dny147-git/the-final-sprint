@@ -111,7 +111,7 @@ export default function ExpertVideoCarousel() {
         onMouseMove={handleMouseMove}
       >
         {experts.map((item, i) => (
-          <div key={i} className="w-[400px] shrink-0">
+          <div key={i} className="w-100 shrink-0">
             <div className="rounded-2xl bg-[#f5eaea] shadow-sm">
               <div className="relative h-150 w-100 overflow-hidden rounded-t-2xl">
                 <video
