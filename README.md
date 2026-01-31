@@ -1,16 +1,97 @@
-# React + Vite
+Landing Page – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page built with React and Vite, optimized for performance and clean UI. The project follows a component-based architecture and is fully responsive across mobile, tablet, and desktop.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fast development with Vite
 
-## React Compiler
+Built using React
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Styled with Tailwind CSS
 
-## Expanding the ESLint configuration
+Fully responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Reusable and maintainable components
+
+Tech Stack
+
+React
+
+Vite
+
+Tailwind CSS
+
+ESLint
+
+Installation
+
+**1. Prerequisites**
+
+Ensure the following tools are installed:
+
+Node.js >= 18
+
+npm or yarn
+
+Check versions:
+
+node -v
+
+npm -v 2.
+
+**2. Clone the repository:**
+
+git clone https://github.com/dny147-git/pati-group-assessment.git
+
+cd pati-group-assessment
+
+**3. Install dependencies**
+
+Using npm:
+
+npm install
+
+Or using yarn:
+
+yarn install
+
+**4. Run the development server**
+
+npm run dev
+or
+yarn dev
+
+Open your browser at:
+
+http://localhost:5173
+
+**5. Build for production:**
+
+npm run build
+
+The production-ready files will be generated in the dist/ folder.
+
+**6.Preview production build (optional)**
+
+npm run preview
+
+Linting
+
+Run ESLint to check code quality:
+
+npm run lint
+
+Notes
+
+This project uses Vite with Hot Module Replacement (HMR).
+
+Designed for marketing and product landing pages.
+
+Easy to extend with additional sections or pages.
+
+Author
+
+**Nhựt Duy Hoàng**
+
+**Front-End Developer (ReactJS)**
