@@ -75,7 +75,7 @@ export default function IM8ComparisonTable() {
           />
 
           {/* HEADER */}
-          <div className="grid grid-cols-2  text-white font-bold">
+          <div className="grid grid-cols-2 bg-[#50000b] text-white font-bold">
             <div className="px-6 py-4 text-sm font-semibold linear-red">
               Daily Ultimate Essentials
             </div>
