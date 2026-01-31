@@ -29,7 +29,7 @@ export default function ProductGallery() {
   const [active, setActive] = useState(images[0]);
 
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 left-6">
       {/* Thumbnails */}
       <ThumbnailList images={images} active={active} setActive={setActive} />
 

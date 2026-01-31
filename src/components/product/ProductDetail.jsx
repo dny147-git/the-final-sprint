@@ -23,7 +23,7 @@ export default function ProductDetail() {
     >
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
         {/* LEFT – Gallery */}
-        <div className="w-full lg:w-165  lg:top-24">
+        <div className="w-full lg:w-165 lg:top-24">
           <ProductGallery />
         </div>
 

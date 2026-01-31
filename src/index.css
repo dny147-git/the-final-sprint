@@ -53,3 +53,17 @@
 .custom-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
+.linear-2 {
+  background: linear-gradient(
+    135deg,
+    rgba(80, 0, 11, 0.06) 0%,
+    rgba(80, 0, 11, 0.02) 100%
+  );
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
