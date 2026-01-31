@@ -17,6 +17,7 @@ import PremiumCoreNutrition from "./components/PremiumCoreNutrition";
 import ProductDetail from "./components/product/ProductDetail";
 import ProvenResultsSection from "./components/ProvenResultsSection";
 import ReviewsSection from "./components/ReviewSection";
+import StickyAddToCart from "./components/ui/StickyAddToCart";
 import StickyPromoBar from "./components/ui/StickyPromoBar";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <PremiumCoreNutrition />
       <FaqSection />
       <Footer />
+      <StickyAddToCart />
     </div>
   );
 }

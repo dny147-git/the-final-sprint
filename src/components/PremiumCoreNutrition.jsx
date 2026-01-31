@@ -45,7 +45,7 @@ export default function PremiumCoreNutrition() {
           <div className="mt-4 flex flex-wrap gap-6 text-[12px] text-[#7a0c0c]">
             <span className="flex gap-2">
               <span className="bg-[#50000b] rounded-full">
-                <CircleCheck className=" text-white rounded-full w-full w-5 h-5" />
+                <CircleCheck className=" text-white rounded-full w-5 h-5" />
               </span>{" "}
               <p>
                 {" "}
@@ -82,7 +82,7 @@ export default function PremiumCoreNutrition() {
           {products.map((item) => (
             <div key={item.id} className="group">
               {/* Image card */}
-              <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#f6c7a5] to-[#f08b74]">
+              <div className="relative overflow-hidden rounded-2xl bg-linear-to-br from-[#f6c7a5] to-[#f08b74]">
                 <img
                   src={item.image}
                   alt={item.title}

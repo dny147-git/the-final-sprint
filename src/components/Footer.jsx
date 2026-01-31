@@ -79,7 +79,7 @@ export default function Footer() {
         {" "}
         <img
           src="https://im8health.com/cdn/shop/files/IM8_Logo-R_Pink.svg?v=1729137155&width=900"
-          className="lg:w-[1400px] mx-auto "
+          className="lg:w-350 mx-auto "
         />
       </div>
       <FooterLegal />
