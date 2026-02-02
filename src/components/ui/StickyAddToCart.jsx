@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function StickyAddToCart() {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 border-t bg-[#fbf6f3]">
+    <div className="fixed bottom-0 left-0 right-0 z-100 border-t bg-[#fbf6f3]">
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 ">
         {/* Image */}
         <img
